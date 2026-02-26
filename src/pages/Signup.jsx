@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
-import { login } from "../features/auth/authslice";
+import { login } from "../features/auth/authSlice";
 
 const Signup = () => {
   const dispatch = useDispatch();
